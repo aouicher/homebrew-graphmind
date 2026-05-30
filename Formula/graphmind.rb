@@ -25,6 +25,6 @@ class Graphmind < Formula
   end
 
   test do
-    assert_match "graphmind", shell_output("\#{bin}/graphmind --help")
+    assert_match "graphmind", shell_output("#{bin}/graphmind --help")
   end
 end
