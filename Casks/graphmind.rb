@@ -1,14 +1,14 @@
 cask "graphmind" do
-  version "0.2.205"
+  version "0.2.206"
 
   on_arm do
-    url "https://github.com/aouicher/graphmind/releases/download/v0.2.205/GraphMind-macos-arm64.dmg"
-    sha256 "3a46c5e80cec6c86f64dd3893938591506aa804fdd3d5a148115eb5ad3f75af3"
+    url "https://github.com/aouicher/graphmind/releases/download/v0.2.206/GraphMind-macos-arm64.dmg"
+    sha256 "290353d4f041b162ff89a4c23f60c812c0d0bccf68db7e33dd1e77e5fe2c9c0f"
   end
 
   on_intel do
-    url "https://github.com/aouicher/graphmind/releases/download/v0.2.205/GraphMind-macos-x64.dmg"
-    sha256 "df6e36084d5e447bcc2196f20184aaff0fc861927bd2cb7937b36c373c772132"
+    url "https://github.com/aouicher/graphmind/releases/download/v0.2.206/GraphMind-macos-x64.dmg"
+    sha256 "53b0489d04df32225f938b61932b6f538a3ab57a1d49f77d037c5036b534c530"
   end
 
   name "GraphMind"
